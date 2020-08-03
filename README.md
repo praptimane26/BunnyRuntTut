@@ -1,2 +1,2 @@
-# BunnyRuntTut
-Repo for Bunny Running tutorial
+# BunnyRunTut
+Repo for Run Bunny Run
