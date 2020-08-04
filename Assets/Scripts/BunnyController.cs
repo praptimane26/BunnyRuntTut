@@ -22,6 +22,16 @@ public class BunnyController : MonoBehaviour
             myRigidBody.AddForce(transform.up * bunnyJumpForce);
         }
 
-        myAnim.SetFloat("vVelocity", Mathf.Abs(myRigidBody.velocity.y));//mathf.abs helps keep the bunny facing front when jumping
+        myAnim.SetFloat("vVelocity", /*Mathf.Abs*/(myRigidBody.velocity.y));//mathf.abs helps keep the bunny facing front when jumping
     }
+
+     void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.gameObject.layer == LayerMask.NameToLayer("enemy"))
+        {
+            Application.LoadLevel(Application.loadedLevel);
+        }
+    }
+
+
 }
