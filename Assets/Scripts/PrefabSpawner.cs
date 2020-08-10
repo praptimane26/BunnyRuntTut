@@ -20,7 +20,7 @@ public class PrefabSpawner : MonoBehaviour
     {
         if (Time.time > nextSpawn)
         {
-            Instantiate(prefabToSpawn, transform.position, Quaternion.identity);
+            Instantiate(prefabToSpawn,transform.position,Quaternion.identity);
             nextSpawn = Time.time + spawnRate + Random.Range(0,randomDelay);
         }
     }
