@@ -564,7 +564,7 @@ MonoBehaviour:
   prefabToSpawn: {fileID: 2332265030708893160, guid: 007d262ec99df4149896850dd8ac30b8,
     type: 3}
   spawnRate: 1
-  randomDelay: 1
+  randomDelay: 3
 --- !u!4 &523098014
 Transform:
   m_ObjectHideFlags: 0
@@ -573,7 +573,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 523098012}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.1, y: -1.43, z: 0}
+  m_LocalPosition: {x: 22.13, y: -1.32, z: 0}
   m_LocalScale: {x: 1.6157573, y: 1.5250385, z: 0.99}
   m_Children: []
   m_Father: {fileID: 0}
